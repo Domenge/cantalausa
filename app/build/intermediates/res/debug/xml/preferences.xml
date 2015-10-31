@@ -1,0 +1,12 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+            android:id="@+id/isSplashEnabled"
+            android:key="isSplashEnabled"
+            android:title="Ecran de convit actiu"
+            android:summary="Osca per activar l'ecran de convit a l'aviada"
+            android:defaultValue="true"/>
+</PreferenceScreen>
+
+
+<!-- From: file:/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/xml/preferences.xml -->

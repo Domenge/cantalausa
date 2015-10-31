@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2010, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- The name of the application. -->
+    <string name="app_name">Diccionari de Cantalausa</string>
+
+    <!-- The label for use as a searchable item -->
+    <string name="search_label">Diccionari</string>
+
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Cèrca dins lo diccionari</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Cèrca</string>
+
+    <!-- The menu entry that invokes about. -->
+    <string name="menu_about">A prepaus...</string>
+    
+    <!-- The description that will show up in the search settings for this source.  -->
+    <string name="settings_description">Definicions dels mots</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">La cèrca d\'un mot se fa dins la bòstia de cèrca de la barra d\'aviada</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one">%1$d resulta per  \"%2$s\": </item>
+      <item quantity="other">%1$d resultas per \"%2$s\": </item>
+    </plurals>
+
+    <!-- Search failure message. -->
+    <string name="no_results">Pas de resulta per \"%s\"</string>
+    <string name="app_description">Diccionari de Cantalausa</string>
+    
+    <!-- Widget resources -->
+    <string name="about_this_app">A prepaus del diccionari</string>
+    <string name="ContentDescription">IEO fédéral logo</string>
+    <string name="textSizeLarge">Large text</string>
+    <string name="textSizeMedium">Medium text</string>
+    <string name="lineRead">line read</string>
+    <string name="labelProgression">Estat del cargament de la basa de donadas</string>
+    
+    
+</resources>

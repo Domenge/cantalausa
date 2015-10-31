@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The name of the application. -->
+    <string name="app_name">Diccionari de cèrca</string>
+
+    <!-- The label for use as a searchable item -->
+    <string name="search_label">Diccionari</string>
+
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Cèrca dins lo diccionari</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Cèrca</string>
+
+    <!-- The description that will show up in the search settings for this source.  -->
+    <string name="settings_description">Definicions dels mots</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">La cèrca d\'un mot se fa dins la bòstia de cèrca de la barra d\'aviada</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one">%1$d resulta per  \"%2$s\": </item>
+      <item quantity="other">%1$d resultas per \"%2$s\": </item>
+    </plurals>
+
+    <!-- Search failure message. -->
+    <string name="no_results">Pas de resulta per \"%s\"</string>
+
+    <string name="about_credits">Cantalausa</string>
+    <string name="ContentDescription">IEO federal logo</string>
+</resources>

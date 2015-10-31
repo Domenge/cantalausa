@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res" >
+            <file
+                name="about"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/layout/about.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="result"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/layout/result.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="word"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/layout/word.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_word"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/layout/widget_word.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="row"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/layout/row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="progress_bar"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/layout/progress_bar.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="splash"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/layout/splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/values-fr-rOC/strings.xml"
+                qualifiers="fr-rOC" >
+                <string name="no_results" >Pas de resulta per \"%s\"
+                </string>
+                <string name="app_name" >Diccionari de cèrca
+                </string>
+                <string name="settings_description" >Definicions dels mots
+                </string>
+                <string name="menu_search" >Cèrca
+                </string>
+                <string name="search_hint" >Cèrca dins lo diccionari
+                </string>
+                <string name="search_instructions" >La cèrca d\'un mot se fa dins la bòstia de cèrca de la barra d\'aviada
+                </string>
+
+                <plurals name="search_results" >
+                    <item quantity="one">
+%1$d resulta per  \"%2$s\": 
+                    </item>
+                    <item quantity="other">
+%1$d resultas per \"%2$s\": 
+                    </item>
+                </plurals>
+
+                <string name="search_label" >Diccionari
+                </string>
+                <string name="about_credits" >Cantalausa
+                </string>
+                <string name="ContentDescription" >IEO federal logo
+                </string>
+            </file>
+            <file
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <plurals name="search_results" >
+                    <item quantity="one">
+%1$d resulta per  \"%2$s\": 
+                    </item>
+                    <item quantity="other">
+%1$d resultas per \"%2$s\": 
+                    </item>
+                </plurals>
+
+                <string name="no_results" >Pas de resulta per \"%s\"
+                </string>
+                <string name="search_hint" >Cèrca dins lo diccionari
+                </string>
+                <string name="textSizeLarge" >Large text
+                </string>
+                <string name="search_instructions" >La cèrca d\'un mot se fa dins la bòstia de cèrca de la barra d\'aviada
+                </string>
+                <string name="lineRead" >line read
+                </string>
+                <string name="menu_search" >Cèrca
+                </string>
+                <string name="app_description" >Diccionari de Cantalausa
+                </string>
+                <string name="settings_description" >Definicions dels mots
+                </string>
+                <string name="menu_about" >A prepaus...
+                </string>
+                <string name="app_name" >Diccionari de Cantalausa
+                </string>
+                <string name="search_label" >Diccionari
+                </string>
+                <string name="textSizeMedium" >Medium text
+                </string>
+                <string name="labelProgression" >Estat del cargament de la basa de donadas
+                </string>
+                <string name="about_this_app" >A prepaus del diccionari
+                </string>
+                <string name="ContentDescription" >IEO fédéral logo
+                </string>
+            </file>
+            <file
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="Text.Loading" >
+                    <item name="android:textSize">
+14sp
+                    </item>
+                    <item name="android:textColor">
+@android:color/black
+                    </item>
+                </style>
+
+                <style name="Text" />
+
+                <style name="LookupProgress" >
+                    <item name="android:indeterminateOnly">
+true
+                    </item>
+                    <item name="android:indeterminateDrawable">
+@drawable/progress_spin
+                    </item>
+                    <item name="android:indeterminateBehavior">
+repeat
+                    </item>
+                    <item name="android:indeterminateDuration">
+3500
+                    </item>
+                </style>
+
+                <style name="Text.WordType" >
+                    <item name="android:textSize">
+14sp
+                    </item>
+                    <item name="android:textStyle">
+italic
+                    </item>
+                    <item name="android:textColor">
+@android:color/black
+                    </item>
+                </style>
+
+                <style name="Text.Definition" >
+                    <item name="android:textSize">
+13sp
+                    </item>
+                    <item name="android:textColor">
+@android:color/black
+                    </item>
+                </style>
+
+                <style name="WidgetBackground" >
+                    <item name="android:background">
+@drawable/widget_bg
+                    </item>
+                </style>
+
+                <style name="LookupTitle" >
+                    <item name="android:textSize">
+30sp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:textColor">
+?android:attr/textColorPrimary
+                    </item>
+                </style>
+
+                <style name="Text.WordTitle" >
+                    <item name="android:textSize">
+16sp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:textColor">
+@android:color/black
+                    </item>
+                </style>
+
+                <style name="BulletPoint" >
+                    <item name="android:textSize">
+13sp
+                    </item>
+                    <item name="android:textColor">
+@android:color/black
+                    </item>
+                </style>
+            </file>
+            <file
+                name="ic_menu_search"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable-mdpi/ic_menu_search.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_search"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable-hdpi/ic_menu_search.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ieo"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/ieo.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="progress_spin"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/progress_spin.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="widget_bg_selected"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/widget_bg_selected.9.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="widget_bg_bak"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/widget_bg_bak.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_dictionary"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/ic_dictionary.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="widget_bg_normal"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/widget_bg_normal.9.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="star_logo"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/star_logo.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="widget_bg"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/widget_bg.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="widget_bg_pressed"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/drawable/widget_bg_pressed.9.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="info"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/raw/info.txt"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="definitions"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/raw/definitions.txt"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="legal"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/raw/legal.txt"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="preferences"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/xml/preferences.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="searchable"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/xml/searchable.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="options_menu"
+                path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/menu/options_menu.xml"
+                qualifiers=""
+                type="menu" />
+        </source>
+        <source path="/home/domenge/AndroidstudioProjects/cantalausa/app/build/generated/res/rs/debug" />
+        <source path="/home/domenge/AndroidstudioProjects/cantalausa/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/domenge/AndroidstudioProjects/cantalausa/app/src/debug/res" />
+    </dataSet>
+
+</merger>

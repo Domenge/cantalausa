@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <plurals name="search_results">
+        <item quantity="one">%1$d resulta per  \"%2$s\": </item>
+        <item quantity="other">%1$d resultas per \"%2$s\": </item>
+    </plurals>
+
+    <string name="ContentDescription">IEO fédéral logo</string>
+    <string name="about_this_app">A prepaus del diccionari</string>
+    <string name="app_description">Diccionari de Cantalausa</string>
+    <string name="app_name">Diccionari de Cantalausa</string>
+    <string name="labelProgression">Estat del cargament de la basa de donadas</string>
+    <string name="lineRead">line read</string>
+    <string name="menu_about">A prepaus...</string>
+    <string name="menu_search">Cèrca</string>
+    <string name="no_results">Pas de resulta per \"%s\"</string>
+    <string name="search_hint">Cèrca dins lo diccionari</string>
+    <string name="search_instructions">La cèrca d\'un mot se fa dins la bòstia de cèrca de la barra d\'aviada</string>
+    <string name="search_label">Diccionari</string>
+    <string name="settings_description">Definicions dels mots</string>
+    <string name="textSizeLarge">Large text</string>
+    <string name="textSizeMedium">Medium text</string>
+    <!-- From: file:/home/domenge/AndroidstudioProjects/cantalausa/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="BulletPoint">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="LookupProgress">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_spin</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+    </style>
+
+    <style name="LookupTitle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text" />
+
+    <style name="Text.Definition">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.Loading">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.WordTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.WordType">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="WidgetBackground">
+        <item name="android:background">@drawable/widget_bg</item>
+    </style>
+
+</resources>
